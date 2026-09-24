@@ -22,18 +22,31 @@ class Precidente extends politico_1.default {
     getQuantMinistros() {
         return this.QuantMinistros;
     }
-    //Actions now lol
-    NomearMinistro(NewM) {
-        this.QuantMinistros.push(NewM);
-        console.log(`membro associado com sucesso }.()`);
-        //console.log (`${this.QuantMinistros[NewM]}`)
-        console.log(`Lista de ministros vivos atualizada: ${this.QuantMinistros}`);
+    setQuantMinistros() {
+        return this.QuantMinistros;
     }
-    AniquilarMinistro() {
-        //console.log ('matar ministro'this.QuantMinistros.push)
-        this.QuantMinistros.pop();
-        console.log('Membro aniquilado com sucesso');
-        console.log(`Lista de ministros vivos atualizada: ${this.QuantMinistros}`);
+    //Actions now lol
+    //mudei as duas primeiras funções para a que a senhora pediu...
+    NomearMinistro(NewM) {
+        const sominha = this.QuantMinistros + NewM;
+        console.log(`O precidente ${this.nome} adicionou  ${NewM} a ${this.QuantMinistros} ministros betas, então são ${sominha}  `);
+        return sominha;
+    }
+    AniquilarMinistro(Brutal) {
+        const genocidio = this.QuantMinistros - Brutal;
+        if (this.NomearMinistro(this.QuantMinistros) > 0) {
+            //obs: Tá vendo a função aqui encima? Ela só serve com os atributos da classe Politica e presidente, lembra dessa heim
+            if (this.QuantMinistros > Brutal) {
+                console.log(`O preCidente ${this.nome} ANIQUILOU ${Brutal} de ${this.QuantMinistros} ministros ladroes betas, ou seja: ${genocidio}`);
+            }
+            else {
+                throw new Error(`como assim man não precisa aniquilar tantos ministros assim, eles fizeram algo com seu cachorro?`);
+            }
+        }
+        else {
+            throw new Error(`biiiiiiiiiip, o presidente ${this.nome} é tão mixuruca que não tem ministr nehum, sobrou nada para o betinha hehehehhehhehhehheeheheh `);
+            // HSSHHHHWEHARK UYECONSEGUIIIIIIIIIII... mais ou menos...
+        }
     }
     ComandarOsbetasdasForçasArmadas(textoMotivacional) {
         console.log(textoMotivacional);

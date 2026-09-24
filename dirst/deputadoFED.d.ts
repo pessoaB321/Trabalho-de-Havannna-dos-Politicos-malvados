@@ -7,6 +7,8 @@ export default class FeDedePu extends Politico {
     constructor(nome: string, partido: string, esfera: regi, poder: Power, nomeLocalJob: string, EnderecoLocalJob: string, remuneracao: number, ProjectList: string[], bancadaBancadinha: string, EstadoName: string);
     getbancadaBancadinha(): string;
     getEstadoName(): string;
+    setbancadaBancadinha(): string;
+    setEstadoName(): string;
     Mandato(): void;
     LEgislarPenal(NaguentoMais: string): void;
     LEgislarCodigoTribu(NaguentoMais: string): void;

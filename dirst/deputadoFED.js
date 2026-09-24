@@ -26,6 +26,12 @@ class FeDedePu extends politico_1.default {
     getEstadoName() {
         return this.EstadoName;
     }
+    setbancadaBancadinha() {
+        return this.bancadaBancadinha;
+    }
+    setEstadoName() {
+        return this.EstadoName;
+    }
     /*  super(nome, partido, esfera, poder, nomeLocalJob, EnderecoLocalJob, remuneracao, ProjectList)
            this.bancadaBancadinha=bancadaBancadinha
             this.EstadoName= EstadoName*/

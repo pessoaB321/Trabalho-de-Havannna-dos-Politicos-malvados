@@ -25,7 +25,7 @@ Estado
 - três deputados estaduais de seu Estado e dois de outro Estado
 - 2 senadores do seu Estado e 1 de outro Estado
 */
-const Carlinhos = new precidente_1.default("carlinhso da silva", "monster Hai", "federal", "executivo", "sua mainha tu tu ta uat", "brasilia", 1, ["projeto sua mae", "a"], ["Emmanuelle", "rogerio", "Havanna"]);
+const Carlinhos = new precidente_1.default("carlinhso da silva", "monster Hai", "federal", "executivo", "sua mainha tu tu ta uat", "brasilia", 1, ["projeto sua mae", "a"], 4);
 const Rakreche = new governador_1.default("Raquel Lilirara", "67", "estadual", "executivo", "Pernabuco lixo", "... recife", 5, ['muitos', 'muitos'], 76, "PE");
 const BillyKid = new governador_1.default("Billy kid master brastemp", "jusiçaON", "estadual", "executivo", "NOva Eridu", "Sao lourenlço da mata 21326576", 13, ["matar corruptos", "destruir sao paulo"], 13, "NA");
 //...
@@ -45,6 +45,7 @@ const senadorOutroEstado = new Senador_1.default("Senador de SP", "Partido SP", 
 Carlinhos.Mandato();
 Rakreche.Mandato();
 BillyKid.Mandato();
+// hmmmm fiquei com preguiça nesse aqui... foi mal Havanna mas é a vida
 deputadoFederalPE1.Mandato();
 deputadoFederalPE2.Mandato();
 deputadoFederalPE3.Mandato();
@@ -58,4 +59,10 @@ deputadoEstadualOutroEstado2.Mandato();
 senadorPE1.Mandato();
 senadorPE2.Mandato();
 senadorOutroEstado.Mandato();
+/* no windows os comandos são:
+node dirst/index.js-- rodar o projeto
+npx tsc--> sei la atualiza os caba do dirts
+*/
+Carlinhos.NomearMinistro(35);
+Carlinhos.AniquilarMinistro(3);
 //# sourceMappingURL=index.js.map

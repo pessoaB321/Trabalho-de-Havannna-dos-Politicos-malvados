@@ -18,6 +18,14 @@ export default abstract class Politico {
     getremuneracao(): number;
     getProjectList(): string[];
     getPoder(): string;
+    setNome(): string;
+    setPartido(): string;
+    setEsfera(): string;
+    setnomeLocalJob(): string;
+    setEnderecoLocalJob(): string;
+    setremuneracao(): number;
+    setProjectList(): string[];
+    setPoder(): string;
     abstract Mandato(): void;
 }
 export {};

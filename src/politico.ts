@@ -55,5 +55,30 @@ export default abstract class Politico{
     getPoder():string{
         return this.poder
     }
+    // he he he Havanna adicionei os sets
+    setNome():string{
+        return this.nome
+    }
+    setPartido():string{
+        return this.partido
+    }
+    setEsfera():string{
+        return this.esfera
+    }
+    setnomeLocalJob():string{
+        return this.nomeLocalJob
+    }
+    setEnderecoLocalJob():string{
+        return this.EnderecoLocalJob
+    }
+    setremuneracao():number{
+        return this.remuneracao
+    }
+    setProjectList():string[]{
+        return this.ProjectList
+    }
+    setPoder():string{
+        return this.poder
+    }
     abstract Mandato():void
 } 
