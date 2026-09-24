@@ -34,6 +34,12 @@ export default class Governador extends Politico{
 getEstadoName():string{
         return this.EstadoName
 }
+setQuantSecre():number{
+        return this.QuantSecre
+}
+setEstadoName():string{
+        return this.EstadoName
+}
 Mandato():void{
     console.log(`O governador ${this.nome}, do partido ${this.partido}, atua na esfera ${this.esfera} e no poder ${this.poder}, trabalha em ${this.nomeLocalJob}, localizado em ${this.EnderecoLocalJob}. Remuneração: ${this.remuneracao}, projetos: ${this.ProjectList}, secretários: ${this.QuantSecre}, estado: ${this.EstadoName}.`);
 }

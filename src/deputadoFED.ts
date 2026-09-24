@@ -34,6 +34,13 @@ getEstadoName():string{
         return this.EstadoName
 }
 
+    setbancadaBancadinha():string{
+        return this.bancadaBancadinha
+}
+setEstadoName():string{
+        return this.EstadoName
+}
+
 /*  super(nome, partido, esfera, poder, nomeLocalJob, EnderecoLocalJob, remuneracao, ProjectList)
        this.bancadaBancadinha=bancadaBancadinha
         this.EstadoName= EstadoName*/ 

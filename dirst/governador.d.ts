@@ -7,6 +7,8 @@ export default class Governador extends Politico {
     constructor(nome: string, partido: string, esfera: regi, poder: Power, nomeLocalJob: string, EnderecoLocalJob: string, remuneracao: number, ProjectList: string[], QuantMinistros: number, EstadoName: string);
     getQuantSecre(): number;
     getEstadoName(): string;
+    setQuantSecre(): number;
+    setEstadoName(): string;
     Mandato(): void;
     GerirPoli(tica: string): void;
     admRodovias(admburro: string): void;

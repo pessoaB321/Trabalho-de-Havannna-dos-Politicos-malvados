@@ -43,6 +43,31 @@ class Politico {
     getPoder() {
         return this.poder;
     }
+    // he he he Havanna adicionei os sets
+    setNome() {
+        return this.nome;
+    }
+    setPartido() {
+        return this.partido;
+    }
+    setEsfera() {
+        return this.esfera;
+    }
+    setnomeLocalJob() {
+        return this.nomeLocalJob;
+    }
+    setEnderecoLocalJob() {
+        return this.EnderecoLocalJob;
+    }
+    setremuneracao() {
+        return this.remuneracao;
+    }
+    setProjectList() {
+        return this.ProjectList;
+    }
+    setPoder() {
+        return this.poder;
+    }
 }
 exports.default = Politico;
 //# sourceMappingURL=politico.js.map

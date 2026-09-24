@@ -7,6 +7,8 @@ export default class DEPUestaDU extends Politico {
     constructor(nome: string, partido: string, esfera: regi, poder: Power, nomeLocalJob: string, EnderecoLocalJob: string, remuneracao: number, ProjectList: string[], ListaCommission: string[], EstadoName: string);
     getListaCommission(): string[];
     getEstadoName(): string;
+    setListaCommission(): string[];
+    setEstadoName(): string;
     Mandato(): void;
     legislarAlgo(Testomuitointerressante: string): void;
     VotarPPA(votar: boolean): void;

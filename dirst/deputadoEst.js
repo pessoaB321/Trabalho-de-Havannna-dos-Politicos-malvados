@@ -30,6 +30,12 @@ class DEPUestaDU extends politico_1.default {
     getEstadoName() {
         return this.EstadoName;
     }
+    setListaCommission() {
+        return this.ListaCommission;
+    }
+    setEstadoName() {
+        return this.EstadoName;
+    }
     Mandato() {
         console.log(`O deputado estadual ${this.nome}, do partido ${this.partido}, atua na esfera ${this.esfera} e no poder ${this.poder}, trabalha em ${this.nomeLocalJob}, localizado em ${this.EnderecoLocalJob}. Remuneração: ${this.remuneracao}, projetos: ${this.ProjectList}, comissão: ${this.ListaCommission}, estado: ${this.EstadoName}.`);
     }
