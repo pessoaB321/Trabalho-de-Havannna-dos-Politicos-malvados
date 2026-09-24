@@ -64,3 +64,7 @@ senadorPE1.Mandato();
 senadorPE2.Mandato();
 senadorOutroEstado.Mandato();
 
+//npm install -g tsx
+//tsx nome-do-arquivo.ts
+
+
